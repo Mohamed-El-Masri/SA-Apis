@@ -1,11 +1,13 @@
-{
-  "name": "json-server-1",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port 3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+{  
+  "name": "json-server-1",  
+  "version": "1.0.0",  
+  "scripts": {  
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"  
+  },  
+  "dependencies": {  
+    "json-server": "^0.17.0"  
+  }  
+}  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
