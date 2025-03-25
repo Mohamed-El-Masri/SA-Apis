@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port 3000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js",
+    "dev": "json-server --watch db.json --host 0.0.0.0 --port 3000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-beta.3"
   }
 }
